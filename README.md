@@ -176,6 +176,24 @@ pim-woocommerce/
 - [ ] Webhook listener for real-time WooCommerce sync
 - [ ] User authentication with JWT
 - [ ] Category management UI
+- [ ] AI insights
+
+---
+## Security
+
+- **Helmet** sets secure HTTP headers
+- **CORS** restricted to frontend origin in production
+- **Rate limiting** — 100 requests per 15 minutes per IP
+- **Input validation** on all POST/PUT endpoints via express-validator
+- **No secrets in code** — all credentials via `.env` (never committed)
+- **Stack traces hidden** in production error responses
+
+---
+## Video link
+
+- https://drive.google.com/file/d/16uPVKNUlcxEbcOlBRhIkLvjyd3jYxYGa/view
+
+
 
 ---
 
